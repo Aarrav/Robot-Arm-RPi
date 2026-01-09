@@ -67,7 +67,7 @@ def index():
                 box-shadow: 0 4px 6px rgba(0,0,0,0.3);
             }
             .label {
-                width: 60px;
+                width: 80px;
                 text-align: center;
                 font-weight: bold;
                 font-size: 1.2rem;
@@ -120,15 +120,15 @@ def index():
         <button class="btn-stop" onclick="send('STOP')">STOP</button>
 
         <div class="control-row">
-            <button class="btn-minus" onclick="send('J1_MINUS')">-</button>
-            <div class="label">J1</div>
-            <button class="btn-plus" onclick="send('J1_PLUS')">+</button>
+            <button class="btn-minus" onclick="send('BaseCCW')">CCW</button>
+            <div class="label">Base</div>
+            <button class="btn-plus" onclick="send('BaseCW')">CW</button>
         </div>
 
         <div class="control-row">
-            <button class="btn-minus" onclick="send('J2_MINUS')">-</button>
-            <div class="label">J2</div>
-            <button class="btn-plus" onclick="send('J2_PLUS')">+</button>
+            <button class="btn-minus" onclick="send('ShoulderDown')">Down</button>
+            <div class="label">Shoulder</div>
+            <button class="btn-plus" onclick="send('ShoulderUp')">Up</button>
         </div>
 
         <script>
