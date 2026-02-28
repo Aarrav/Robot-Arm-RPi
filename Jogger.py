@@ -5,8 +5,8 @@ import queue
 import time
 
 # ---------- Serial Setup ----------
-ser = serial.Serial('/dev/ttyAMA0', 9600, timeout=1)
-print("Using /dev/ttyAMA0 for serial communication.")
+ser = serial.Serial('/dev/ttyS0', 9600, timeout=1)
+print("Using /dev/ttyS0 for serial communication.")
 time.sleep(2)
 
 cmd_queue = queue.Queue()
