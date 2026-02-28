@@ -4,7 +4,7 @@ import threading
 import queue
 import time
 
-# ---------- Serial Setup ----------
+# ---------- Serial Setup --------
 ser = serial.Serial('/dev/ttyS0', 9600, timeout=1)
 print("Using /dev/ttyS0 for serial communication.")
 time.sleep(2)
