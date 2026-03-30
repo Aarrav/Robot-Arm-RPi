@@ -1,0 +1,3 @@
+[console_scripts]
+send_traj = simple_trajectory.main:main
+

@@ -1,0 +1,37 @@
+[2.665s] Invoking command in '/home/robotarm/Robot-Arm-RPi/simple_trajectory': PYTHONPATH=/home/robotarm/Robot-Arm-RPi/build/simple_trajectory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotarm/Robot-Arm-RPi/install/simple_trajectory/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simple_trajectory build --build-base /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/build install --record /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/install.log --single-version-externally-managed install_data
+[3.622s] running egg_info
+[3.625s] creating ../build/simple_trajectory/simple_trajectory.egg-info
+[3.625s] writing ../build/simple_trajectory/simple_trajectory.egg-info/PKG-INFO
+[3.626s] writing dependency_links to ../build/simple_trajectory/simple_trajectory.egg-info/dependency_links.txt
+[3.627s] writing entry points to ../build/simple_trajectory/simple_trajectory.egg-info/entry_points.txt
+[3.627s] writing requirements to ../build/simple_trajectory/simple_trajectory.egg-info/requires.txt
+[3.629s] writing top-level names to ../build/simple_trajectory/simple_trajectory.egg-info/top_level.txt
+[3.629s] writing manifest file '../build/simple_trajectory/simple_trajectory.egg-info/SOURCES.txt'
+[3.636s] reading manifest file '../build/simple_trajectory/simple_trajectory.egg-info/SOURCES.txt'
+[3.640s] writing manifest file '../build/simple_trajectory/simple_trajectory.egg-info/SOURCES.txt'
+[3.640s] running build
+[3.641s] running build_py
+[3.641s] creating /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/build
+[3.642s] creating /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/build/lib
+[3.642s] creating /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/build/lib/simple_trajectory
+[3.643s] copying simple_trajectory/__init__.py -> /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/build/lib/simple_trajectory
+[3.643s] copying simple_trajectory/main.py -> /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/build/lib/simple_trajectory
+[3.644s] running install
+[3.645s] running install_lib
+[3.648s] creating /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/lib/python3.10/site-packages/simple_trajectory
+[3.648s] copying /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/build/lib/simple_trajectory/__init__.py -> /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/lib/python3.10/site-packages/simple_trajectory
+[3.649s] copying /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/build/lib/simple_trajectory/main.py -> /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/lib/python3.10/site-packages/simple_trajectory
+[3.651s] byte-compiling /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/lib/python3.10/site-packages/simple_trajectory/__init__.py to __init__.cpython-310.pyc
+[3.653s] byte-compiling /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/lib/python3.10/site-packages/simple_trajectory/main.py to main.cpython-310.pyc
+[3.655s] running install_data
+[3.655s] creating /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/share/ament_index
+[3.656s] creating /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/share/ament_index/resource_index
+[3.656s] creating /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/share/ament_index/resource_index/packages
+[3.657s] copying resource/simple_trajectory -> /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/share/ament_index/resource_index/packages
+[3.658s] copying package.xml -> /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/share/simple_trajectory
+[3.658s] running install_egg_info
+[3.665s] Copying ../build/simple_trajectory/simple_trajectory.egg-info to /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/lib/python3.10/site-packages/simple_trajectory-0.0.0-py3.10.egg-info
+[3.670s] running install_scripts
+[3.749s] Installing send_traj script to /home/robotarm/Robot-Arm-RPi/install/simple_trajectory/lib/simple_trajectory
+[3.751s] writing list of installed files to '/home/robotarm/Robot-Arm-RPi/build/simple_trajectory/install.log'
+[3.870s] Invoked command in '/home/robotarm/Robot-Arm-RPi/simple_trajectory' returned '0': PYTHONPATH=/home/robotarm/Robot-Arm-RPi/build/simple_trajectory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotarm/Robot-Arm-RPi/install/simple_trajectory/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/simple_trajectory build --build-base /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/build install --record /home/robotarm/Robot-Arm-RPi/build/simple_trajectory/install.log --single-version-externally-managed install_data
