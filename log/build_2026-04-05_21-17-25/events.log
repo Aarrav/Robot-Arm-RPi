@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.001901] (-) JobUnselected: {'identifier': 'base_motor_control'}
+[0.002332] (-) JobUnselected: {'identifier': 'simple_trajectory'}
+[0.003481] (-) EventReactorShutdown: {}

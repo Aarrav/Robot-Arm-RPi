@@ -7,11 +7,11 @@ class MotorCommander(Node):
         super().__init__('motor_commander')
         self.pub = self.create_publisher(Float32MultiArray, '/move_base', 10)
 
-    def send_command(self, initial, final, duration):
+    def send_command(self, final, duration):
         msg = Float32MultiArray()
-        msg.data = [initial, final, duration]
+        msg.data = [final, duration]
         self.pub.publish(msg)
-        self.get_logger().info(f'Sent: {initial}° → {final}° over {duration}s')
+        self.get_logger().info(f'Sent: {final}° over {duration}s')
 
 def main(args=None):
     rclpy.init(args=args)
@@ -20,10 +20,9 @@ def main(args=None):
     print('=== Base Motor Control ===')
     while True:
         try:
-            initial  = float(input('Initial position (degrees): '))
-            final    = float(input('Final position   (degrees): '))
+            final    = float(input('Final absolute position   (degrees): '))
             duration = float(input('Duration         (seconds): '))
-            node.send_command(initial, final, duration)
+            node.send_command(final, duration)
             print()
         except KeyboardInterrupt:
             print('\nExiting.')
