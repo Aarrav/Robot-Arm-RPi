@@ -1,0 +1,3 @@
+[console_scripts]
+commander = base_motor_control.commander:main
+

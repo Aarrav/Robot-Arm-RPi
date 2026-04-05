@@ -3,34 +3,17 @@ from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray
 
 class TrajectoryPublisher(Node):
-
     def __init__(self):
         super().__init__('trajectory_publisher')
-
-        self.publisher_ = self.create_publisher(
-            Float32MultiArray,
-            '/joint_trajectory_command',
-            10
-        )
-
-        # Send command after short delay
+        self.publisher_ = self.create_publisher(Float32MultiArray, '/joint_trajectory_command', 10)
         self.timer = self.create_timer(2.0, self.send_command)
 
     def send_command(self):
         msg = Float32MultiArray()
-
-        start_pos = 0.0          # radians
-        end_pos = 1.745          # ~100 degrees
-        duration = 3.0           # seconds
-
-        msg.data = [start_pos, end_pos, duration]
-
+        msg.data = [0.0, 1.745, 3.0]
         self.publisher_.publish(msg)
         self.get_logger().info(f'Sent trajectory: {msg.data}')
-
-        # Stop after one publish
         self.timer.cancel()
-
 
 def main(args=None):
     rclpy.init(args=args)
@@ -38,3 +21,6 @@ def main(args=None):
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

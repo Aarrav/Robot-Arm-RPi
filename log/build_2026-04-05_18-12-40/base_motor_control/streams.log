@@ -1,0 +1,37 @@
+[2.593s] Invoking command in '/home/robotarm/Robot-Arm-RPi/base_motor_control': PYTHONPATH=/home/robotarm/Robot-Arm-RPi/build/base_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotarm/Robot-Arm-RPi/install/base_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/base_motor_control build --build-base /home/robotarm/Robot-Arm-RPi/build/base_motor_control/build install --record /home/robotarm/Robot-Arm-RPi/build/base_motor_control/install.log --single-version-externally-managed install_data
+[3.564s] running egg_info
+[3.566s] creating ../build/base_motor_control/base_motor_control.egg-info
+[3.567s] writing ../build/base_motor_control/base_motor_control.egg-info/PKG-INFO
+[3.568s] writing dependency_links to ../build/base_motor_control/base_motor_control.egg-info/dependency_links.txt
+[3.569s] writing entry points to ../build/base_motor_control/base_motor_control.egg-info/entry_points.txt
+[3.570s] writing requirements to ../build/base_motor_control/base_motor_control.egg-info/requires.txt
+[3.570s] writing top-level names to ../build/base_motor_control/base_motor_control.egg-info/top_level.txt
+[3.571s] writing manifest file '../build/base_motor_control/base_motor_control.egg-info/SOURCES.txt'
+[3.578s] reading manifest file '../build/base_motor_control/base_motor_control.egg-info/SOURCES.txt'
+[3.581s] writing manifest file '../build/base_motor_control/base_motor_control.egg-info/SOURCES.txt'
+[3.582s] running build
+[3.583s] running build_py
+[3.583s] creating /home/robotarm/Robot-Arm-RPi/build/base_motor_control/build
+[3.584s] creating /home/robotarm/Robot-Arm-RPi/build/base_motor_control/build/lib
+[3.584s] creating /home/robotarm/Robot-Arm-RPi/build/base_motor_control/build/lib/base_motor_control
+[3.585s] copying base_motor_control/__init__.py -> /home/robotarm/Robot-Arm-RPi/build/base_motor_control/build/lib/base_motor_control
+[3.586s] copying base_motor_control/commander.py -> /home/robotarm/Robot-Arm-RPi/build/base_motor_control/build/lib/base_motor_control
+[3.587s] running install
+[3.588s] running install_lib
+[3.590s] creating /home/robotarm/Robot-Arm-RPi/install/base_motor_control/lib/python3.10/site-packages/base_motor_control
+[3.591s] copying /home/robotarm/Robot-Arm-RPi/build/base_motor_control/build/lib/base_motor_control/__init__.py -> /home/robotarm/Robot-Arm-RPi/install/base_motor_control/lib/python3.10/site-packages/base_motor_control
+[3.592s] copying /home/robotarm/Robot-Arm-RPi/build/base_motor_control/build/lib/base_motor_control/commander.py -> /home/robotarm/Robot-Arm-RPi/install/base_motor_control/lib/python3.10/site-packages/base_motor_control
+[3.594s] byte-compiling /home/robotarm/Robot-Arm-RPi/install/base_motor_control/lib/python3.10/site-packages/base_motor_control/__init__.py to __init__.cpython-310.pyc
+[3.596s] byte-compiling /home/robotarm/Robot-Arm-RPi/install/base_motor_control/lib/python3.10/site-packages/base_motor_control/commander.py to commander.cpython-310.pyc
+[3.598s] running install_data
+[3.599s] creating /home/robotarm/Robot-Arm-RPi/install/base_motor_control/share/ament_index
+[3.599s] creating /home/robotarm/Robot-Arm-RPi/install/base_motor_control/share/ament_index/resource_index
+[3.599s] creating /home/robotarm/Robot-Arm-RPi/install/base_motor_control/share/ament_index/resource_index/packages
+[3.600s] copying resource/base_motor_control -> /home/robotarm/Robot-Arm-RPi/install/base_motor_control/share/ament_index/resource_index/packages
+[3.600s] copying package.xml -> /home/robotarm/Robot-Arm-RPi/install/base_motor_control/share/base_motor_control
+[3.601s] running install_egg_info
+[3.608s] Copying ../build/base_motor_control/base_motor_control.egg-info to /home/robotarm/Robot-Arm-RPi/install/base_motor_control/lib/python3.10/site-packages/base_motor_control-0.0.0-py3.10.egg-info
+[3.614s] running install_scripts
+[3.694s] Installing commander script to /home/robotarm/Robot-Arm-RPi/install/base_motor_control/lib/base_motor_control
+[3.695s] writing list of installed files to '/home/robotarm/Robot-Arm-RPi/build/base_motor_control/install.log'
+[3.813s] Invoked command in '/home/robotarm/Robot-Arm-RPi/base_motor_control' returned '0': PYTHONPATH=/home/robotarm/Robot-Arm-RPi/build/base_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotarm/Robot-Arm-RPi/install/base_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/base_motor_control build --build-base /home/robotarm/Robot-Arm-RPi/build/base_motor_control/build install --record /home/robotarm/Robot-Arm-RPi/build/base_motor_control/install.log --single-version-externally-managed install_data
