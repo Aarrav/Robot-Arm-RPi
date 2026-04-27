@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.001600] (-) JobUnselected: {'identifier': 'base_motor_control'}
+[0.002247] (-) JobUnselected: {'identifier': 'simple_trajectory'}
+[0.002802] (dual_motor_control) JobQueued: {'identifier': 'dual_motor_control', 'dependencies': OrderedDict()}
+[0.003020] (dual_motor_control) JobStarted: {'identifier': 'dual_motor_control'}
+[0.098962] (-) TimerEvent: {}
+[0.199658] (-) TimerEvent: {}
+[0.300333] (-) TimerEvent: {}
+[0.401039] (-) TimerEvent: {}
+[0.501802] (-) TimerEvent: {}
+[0.602482] (-) TimerEvent: {}
+[0.703249] (-) TimerEvent: {}
+[0.803910] (-) TimerEvent: {}
+[0.904606] (-) TimerEvent: {}
+[1.005550] (-) TimerEvent: {}
+[1.106996] (-) TimerEvent: {}
+[1.207772] (-) TimerEvent: {}
+[1.308536] (-) TimerEvent: {}
+[1.409371] (-) TimerEvent: {}
+[1.510437] (-) TimerEvent: {}
+[1.611134] (-) TimerEvent: {}
+[1.711796] (-) TimerEvent: {}
+[1.812499] (-) TimerEvent: {}
+[1.913199] (-) TimerEvent: {}
+[2.013897] (-) TimerEvent: {}
+[2.114560] (-) TimerEvent: {}
+[2.215258] (-) TimerEvent: {}
+[2.315971] (-) TimerEvent: {}
+[2.416677] (-) TimerEvent: {}
+[2.517679] (-) TimerEvent: {}
+[2.605449] (dual_motor_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/dual_motor_control', 'build', '--build-base', '/home/robotarm/Robot-Arm-RPi/build/dual_motor_control/build', 'install', '--record', '/home/robotarm/Robot-Arm-RPi/build/dual_motor_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robotarm/Robot-Arm-RPi/dual_motor_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotarm', 'SSH_CLIENT': '192.168.0.40 44678 22', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robotarm/microros_ws/install/micro_ros_agent/lib:/home/robotarm/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robotarm', 'OLDPWD': '/home/robotarm/Robot-Arm-RPi', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'nl_NL.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/robotarm/Robot-Arm-RPi/install:/home/robotarm/install:/home/robotarm/microros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotarm', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nl_NL.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/robotarm/Robot-Arm-RPi/install/simple_trajectory:/home/robotarm/Robot-Arm-RPi/install/base_motor_control:/home/robotarm/install/simple_trajectory:/home/robotarm/install/base_motor_control:/home/robotarm/microros_ws/install/micro_ros_setup:/home/robotarm/microros_ws/install/micro_ros_agent:/home/robotarm/microros_ws/install/micro_ros_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'PWD': '/home/robotarm/Robot-Arm-RPi/build/dual_motor_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.40 44678 192.168.0.61 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotarm/Robot-Arm-RPi/build/dual_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages:/home/robotarm/Robot-Arm-RPi/install/simple_trajectory/lib/python3.10/site-packages:/home/robotarm/Robot-Arm-RPi/install/base_motor_control/lib/python3.10/site-packages:/home/robotarm/install/simple_trajectory/lib/python3.10/site-packages:/home/robotarm/install/base_motor_control/lib/python3.10/site-packages:/home/robotarm/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robotarm/microros_ws/install/micro_ros_setup:/home/robotarm/microros_ws/install/micro_ros_agent:/home/robotarm/microros_ws/install/micro_ros_msgs'}, 'shell': False}
+[2.618143] (-) TimerEvent: {}
+[2.720150] (-) TimerEvent: {}
+[2.820905] (-) TimerEvent: {}
+[2.921680] (-) TimerEvent: {}
+[3.022424] (-) TimerEvent: {}
+[3.123111] (-) TimerEvent: {}
+[3.223815] (-) TimerEvent: {}
+[3.324460] (-) TimerEvent: {}
+[3.425137] (-) TimerEvent: {}
+[3.525917] (-) TimerEvent: {}
+[3.594281] (dual_motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[3.597138] (dual_motor_control) StdoutLine: {'line': b'writing ../build/dual_motor_control/dual_motor_control.egg-info/PKG-INFO\n'}
+[3.598305] (dual_motor_control) StdoutLine: {'line': b'writing dependency_links to ../build/dual_motor_control/dual_motor_control.egg-info/dependency_links.txt\n'}
+[3.599350] (dual_motor_control) StdoutLine: {'line': b'writing entry points to ../build/dual_motor_control/dual_motor_control.egg-info/entry_points.txt\n'}
+[3.600347] (dual_motor_control) StdoutLine: {'line': b'writing requirements to ../build/dual_motor_control/dual_motor_control.egg-info/requires.txt\n'}
+[3.601011] (dual_motor_control) StdoutLine: {'line': b'writing top-level names to ../build/dual_motor_control/dual_motor_control.egg-info/top_level.txt\n'}
+[3.608541] (dual_motor_control) StdoutLine: {'line': b"reading manifest file '../build/dual_motor_control/dual_motor_control.egg-info/SOURCES.txt'\n"}
+[3.612481] (dual_motor_control) StdoutLine: {'line': b"writing manifest file '../build/dual_motor_control/dual_motor_control.egg-info/SOURCES.txt'\n"}
+[3.613183] (dual_motor_control) StdoutLine: {'line': b'running build\n'}
+[3.613678] (dual_motor_control) StdoutLine: {'line': b'running build_py\n'}
+[3.614949] (dual_motor_control) StdoutLine: {'line': b'running install\n'}
+[3.616204] (dual_motor_control) StdoutLine: {'line': b'running install_lib\n'}
+[3.622074] (dual_motor_control) StdoutLine: {'line': b'running install_data\n'}
+[3.622780] (dual_motor_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.626039] (-) TimerEvent: {}
+[3.630263] (dual_motor_control) StdoutLine: {'line': b"removing '/home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages/dual_motor_control-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[3.632027] (dual_motor_control) StdoutLine: {'line': b'Copying ../build/dual_motor_control/dual_motor_control.egg-info to /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages/dual_motor_control-0.0.1-py3.10.egg-info\n'}
+[3.637558] (dual_motor_control) StdoutLine: {'line': b'running install_scripts\n'}
+[3.718529] (dual_motor_control) StdoutLine: {'line': b'Installing commander script to /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/dual_motor_control\n'}
+[3.720243] (dual_motor_control) StdoutLine: {'line': b"writing list of installed files to '/home/robotarm/Robot-Arm-RPi/build/dual_motor_control/install.log'\n"}
+[3.726326] (-) TimerEvent: {}
+[3.827547] (-) TimerEvent: {}
+[3.838324] (dual_motor_control) CommandEnded: {'returncode': 0}
+[3.888159] (dual_motor_control) JobEnded: {'identifier': 'dual_motor_control', 'rc': 0}
+[3.891106] (-) EventReactorShutdown: {}

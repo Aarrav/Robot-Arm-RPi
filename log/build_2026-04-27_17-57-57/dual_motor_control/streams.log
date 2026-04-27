@@ -1,0 +1,37 @@
+[3.152s] Invoking command in '/home/robotarm/Robot-Arm-RPi/dual_motor_control': PYTHONPATH=/home/robotarm/Robot-Arm-RPi/build/dual_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dual_motor_control build --build-base /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/build install --record /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/install.log --single-version-externally-managed install_data
+[4.171s] running egg_info
+[4.174s] creating ../build/dual_motor_control/dual_motor_control.egg-info
+[4.174s] writing ../build/dual_motor_control/dual_motor_control.egg-info/PKG-INFO
+[4.176s] writing dependency_links to ../build/dual_motor_control/dual_motor_control.egg-info/dependency_links.txt
+[4.177s] writing entry points to ../build/dual_motor_control/dual_motor_control.egg-info/entry_points.txt
+[4.178s] writing requirements to ../build/dual_motor_control/dual_motor_control.egg-info/requires.txt
+[4.178s] writing top-level names to ../build/dual_motor_control/dual_motor_control.egg-info/top_level.txt
+[4.179s] writing manifest file '../build/dual_motor_control/dual_motor_control.egg-info/SOURCES.txt'
+[4.186s] reading manifest file '../build/dual_motor_control/dual_motor_control.egg-info/SOURCES.txt'
+[4.189s] writing manifest file '../build/dual_motor_control/dual_motor_control.egg-info/SOURCES.txt'
+[4.190s] running build
+[4.191s] running build_py
+[4.191s] creating /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/build
+[4.192s] creating /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/build/lib
+[4.192s] creating /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/build/lib/dual_motor_control
+[4.193s] copying dual_motor_control/__init__.py -> /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/build/lib/dual_motor_control
+[4.193s] copying dual_motor_control/commander.py -> /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/build/lib/dual_motor_control
+[4.194s] running install
+[4.195s] running install_lib
+[4.199s] creating /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages/dual_motor_control
+[4.199s] copying /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/build/lib/dual_motor_control/__init__.py -> /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages/dual_motor_control
+[4.200s] copying /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/build/lib/dual_motor_control/commander.py -> /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages/dual_motor_control
+[4.203s] byte-compiling /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages/dual_motor_control/__init__.py to __init__.cpython-310.pyc
+[4.204s] byte-compiling /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages/dual_motor_control/commander.py to commander.cpython-310.pyc
+[4.207s] running install_data
+[4.207s] creating /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/share/ament_index
+[4.208s] creating /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/share/ament_index/resource_index
+[4.208s] creating /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/share/ament_index/resource_index/packages
+[4.209s] copying resource/dual_motor_control -> /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/share/ament_index/resource_index/packages
+[4.209s] copying package.xml -> /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/share/dual_motor_control
+[4.210s] running install_egg_info
+[4.217s] Copying ../build/dual_motor_control/dual_motor_control.egg-info to /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages/dual_motor_control-0.0.1-py3.10.egg-info
+[4.223s] running install_scripts
+[4.305s] Installing commander script to /home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/dual_motor_control
+[4.307s] writing list of installed files to '/home/robotarm/Robot-Arm-RPi/build/dual_motor_control/install.log'
+[4.428s] Invoked command in '/home/robotarm/Robot-Arm-RPi/dual_motor_control' returned '0': PYTHONPATH=/home/robotarm/Robot-Arm-RPi/build/dual_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotarm/Robot-Arm-RPi/install/dual_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dual_motor_control build --build-base /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/build install --record /home/robotarm/Robot-Arm-RPi/build/dual_motor_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+commander = dual_motor_control.commander:main
+
