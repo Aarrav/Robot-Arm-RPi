@@ -6,7 +6,6 @@ class DualMotorCommander(Node):
     def __init__(self):
         super().__init__('dual_motor_commander')
 
-        # One topic per joint
         self.base_pub = self.create_publisher(
             Float32MultiArray, '/base/move', 10)
         self.shoulder_pub = self.create_publisher(
@@ -15,19 +14,20 @@ class DualMotorCommander(Node):
         self.get_logger().info('Dual Motor Commander ready.')
 
     def send_command(self, base_final, shoulder_final, duration):
-        # Base command: [final_pos, duration]
         base_msg = Float32MultiArray()
         base_msg.data = [float(base_final), float(duration)]
         self.base_pub.publish(base_msg)
 
-        # Shoulder command: [final_pos, duration]
         shoulder_msg = Float32MultiArray()
         shoulder_msg.data = [float(shoulder_final), float(duration)]
         self.shoulder_pub.publish(shoulder_msg)
 
         self.get_logger().info(
-            f'Sent — Base: {base_final}°  Shoulder: {shoulder_final}°  Duration: {duration}s'
+            f'Sent — Base: {base_final}°  '
+            f'Shoulder: {shoulder_final}°  '
+            f'Duration: {duration}s'
         )
+
 
 def main(args=None):
     rclpy.init(args=args)
